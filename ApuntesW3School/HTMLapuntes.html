@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <style>
+            p {
+              border: 2px solid powderblue;
+              padding: 30px;
+              font-family: 'Courier New', Courier, monospace;
+              font-size: large;
+              margin: auto;
+            }
+            </style>
+        <title>BE SAILOR</title>
+        <link rel="stylesheet" href="styles.css"> <!--Si importasemos hojas de estilo CSS se haria aquí y así. Cuando utilizas style en solo una linea de HTML se llama inline
+        tambien puedes definirlo INTERNAL que signfica utilizar lenguaje CSS aqui en head como hemos hecho con el border,padding etc.. antes de title-->
+    </head>
+<body style="background-color:rgb(255, 255, 255);"> <!--NO SE PONER DOS ATRIBUTOS DE STYLE SEGUIDOS-->
+
+    
+<img src="besailorico.png" alt="iconobesailor" width="100" height="80" title="hecho en paint">
+<h1 style="font-size:60px;">Tareas Diarias</h1> <!--los headings son importantes porque los search engines
+     los utilizan para clasificar tu pagina. Cuanto mayor sea el numero (h2, h3...) menos importante es en la jerarquia intraheadings xD-->
+ <a href="#C4" title="Esto es un bookmark">Saltar a colores RGBA</a>
+<p style="color:red;">Aqui almacenamos las tareas que has realizado diariamente<br>
+    Tambien hablamos de las que queremos hacer mañana.</p>
+    <hr> <!--Esto separa contenido con una raya negra-->
+<pre>Este texto tiene en cuenta     el      espaciado   
+                            y                       
+los cambios de linea porque no es "p" es "pre".
+</pre>
+<img src="rogerthroat.gif" alt="Rogerfelatio" style="width:10%;height:10%;"> <!--Una manera mas rapida de indicar el tamaño de una imagen-->
+<p style="color:blueviolet;" >Vale, vamos a probar los tipos de texto, empezamos con <b>negrita</b>, ¿funciona?<br>
+    Vale. Seguimos con <i>italic</i> que significa cursiva. Ahora vamos con exponentes rollo<sup>aqui arriba</sup><br>
+Y tambien podemos ponerlo<sub>aqui abajo jaja</sub>. Podemos <del>tacharlo</del>, <mark>subrayarlo con subrayador</mark><br>
+y tambien <ins>con una rayita por debajo</ins>, maravilloso.</p>
+<p style="border:2px solid Tomato;">Este es muy divertido, altera como en un espejo<bdo dir="rtl">espejo</bdo> Stand for bi-directional override<br>
+Estamos de acuerdo en que no vamos a utilizarlo en la vida xD.</p>
+<p style="background-color:rgba(255, 99, 71, 0.5);" id="C4">Usando el selector de color en RGBA permite manipular canal alpha, ¡transparencias!</p>
+<a title="te lleva a w3schools" href="https://www.w3schools.com/tags/default.asp" target="_blank">Accede al glosario de etiquetas<br></a><!--El targen
+     puede ser _self _parent _-->
+<button target="_blank" onclick="document.location='https://www.instagram.com/'">Instagram</button> <!--NO SE PONER target _blank en un button-->
+<br><a href="https://twitter.com/ottersquatter" target="_blank">
+<img src="twitterlink.png" alt="Pa' twitter" style="width:42px;height:42px;">
+</a>
+<pre>
+<img src="withpig.gif" alt="MadamMim" style="float:left;width:140px;height:120px;">
+Con el style FLOAT puedes dejar la imagen
+ al lado que quieras de un bloque de texto
+ Esta es Madam Mim riendose de Arturo que
+ se ha convertido en un pequeño pajarito 
+ y está cagado de miedo.
+</pre>
+</body>
+</html>
