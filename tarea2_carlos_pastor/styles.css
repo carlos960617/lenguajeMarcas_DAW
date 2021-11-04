@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box; /*esto es para asegurarte de que el total de porcentaje que incluyen las columnas tiene en cuenta margen y padding y asi no se desborde cuandoe stos se añadan*/
+}
+body{
+    font-family: 'Alegreya Sans';
+    margin: 0;
+    padding: 0;
+}
+span{
+    color: red;
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+.titulo{
+    
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.columnas{
+    padding: 15px;
+}
+
+.columna1{
+    
+    float: left;
+    width: 42%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.bloque1{
+    border-radius: 5px;
+    margin:10px;
+    padding: 15px;
+    background-color: silver;
+
+}    
+    
+.bloque3{
+    border-radius: 25px;
+    margin:10px;
+    padding: 15px;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+}
+.columna2{
+    float: left;
+    width:42%;
+    background-color: rgb(255, 255, 255); 
+    text-align:center;
+}
+
+.bloque2{
+
+    border-radius: 25px;    
+    margin:10px;
+    margin-left: 0;
+    padding: 15px;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.bloque4{
+
+    border-radius: 5px;
+    margin:10px;
+    margin-left: 0;
+    padding: 15px;
+    height: 50%;
+    background-color: silver;
+}
+
+    
+
+.sidebar{
+    
+    border-radius: 5px;
+    position: sticky;
+    padding-bottom: 20px;
+    top: 0;
+    float:left;
+    width: 16%;
+    background-color: rgb(202, 46, 46);
+    text-align: center;
+}
+.sidebar a:link, a:visited{
+    text-decoration: none;
+    color: white;
+}
+.sidebar a:hover, a:active {
+background-color: rgb(255, 138, 138);
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li a{
+    display: block;
+    padding: 8px;
+}
+
+.columnas::after{ /*este es el clearfix container hack para que el elemento nunca desborded su c*/
+    content: "";
+    display: table;
+    clear: both;
+}
+
+pre code {
+    color:rgb(255, 255, 255);
+    text-align: left;
+    margin-bottom: 0px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(97, 97, 97);
+    display: block;
+    
+}
+
+.footer{
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
