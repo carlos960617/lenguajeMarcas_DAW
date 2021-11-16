@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Alegreya Sans' rel='stylesheet'>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+        <title >HTML intro</title>
+    </head>
+    <body>
+
+        <div class="titulo" >
+            
+            <h1 style="font-size: 70px;margin:0px;text-align: center;" title="Este titulo esta marcado como &#60;h1&#62; al considerarse el mas importante."  style="height:5%; width:5%";><img style="height:3.5%; width:3.5%;"src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/HTML5_logo_black.svg/768px-HTML5_logo_black.svg.png">HTML<img style="height:3.5%; width:3.5%;"src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/HTML5_logo_black.svg/768px-HTML5_logo_black.svg.png"></h1>
+            <p style="font-size:25px;margin:0px;text-align: center;" title="Este párrafo esta alineado al centro con el atributo de estilo 'text-align:center'">CARLOS PASTOR PASTOR</p>
+        </div>
+
+        <img src="imagenes/pin.png" alt="imagen pin" title="Este elemento se llama &#60;hr&#62; es una regla horizontal para dividir contenido. &#013; Al igual que los saltos de línea (&#60;br&#62;) no lleva etiqueta de cierre"  height="2%" width="2%" style="margin-left: 30px;">
+        <hr style= "border-top: 30px solid rgb(0, 0, 0);">
+
+        <div class=columnas>
+            <div class="columna1">
+                <div class="bloque1">
+                    <h2 title="Este titulo esta marcado con &#60;h2&#62; por ser el segundo mas importante de la pagina">ESTRUCTURA PRINCIPAL</h2>
+                    <p style="margin-top:0px;padding-top: 0;">Desliza el puntero sobre las etiquetas marcadas en rojo para obtener mas información</p>
+                    <pre>
+                        <code>
+        &#60;!DOCTYPE&#62;
+        &#60;html lang=<span style="color: red;"title="Esto define la nacionalidad del mercado hacia el cual los buscadores enfocaran tu pagina">"es-ES"</span>&#62;
+            &#60;<span title="Aqui detallaremos la configuración de tu página">head</span>&#62;   
+                &#60;meta charset=<span title="Esto ayuda a que carácteres especiales &#013; como la Ñ o la Ç sean codificados correctamente">"utf-8"</span>&#62; <!--Esto sirve para determinador la codificacion de caracteres-->
+                &#60;title&#62;<span title="Elige el nombre con el que se mostrará tu pagina en la barra o pestaña del explorador.">"HTML intro"</span>&#60;/title&#62;
+                &#60;/head&#62;
+            &#60;<span title="Contenedor de todo el código que será visible en tu web">body</span>&#62;
+            &#60;/body&#62;
+        &#60;/html&#62;
+
+                        </code>
+        
+                    </pre>
+
+                    
+
+                </div>
+                <div class="bloque3">
+                    <h2>IMAGENES Y LINKS</h2>
+                    <p>Aprende las distintas maneras de enlazar imagenes y links a tu codigo <br>
+                        También puedes estudiar codigo de otros para seguir aprendiendo.</p>
+                    <pre>
+                        <code>
+        &#60;img src"" <span title="Añade un texto que sustituya tu imagen en caso de que el explorador no sea capaz de cargarla.">alt=""</span> width="" height=""&#62;
+        &#60;a href=<span title="Añade la URL absoluta o relativa del link al que quieras acceder.">""</span> target=<span title="Abre el link en una nueva ventana (_blank), en la ventana actual (_parent) o  en el contenedor del link (_self)">""</span>&#62;Nombre del link &#60;/a&#62;
+                           
+                        </code>
+                    </pre>
+
+                    <img style="height:50%;width:50%;"src="inspeccionar.png" alt="inspeccionar tutorial" title="Click derecho e 'inspeccionar' para estudiar el codigo de cualquier pagina web">
+                    <!--<img src="https://static.okini.land/64344-large_default/udf-butt-only-alien-crayon-shin-chan-series-2.jpg" alt="sinchan">--> 
+                </div>
+
+                
+                
+            </div>
+    
+            <div class="columna2">
+                <div class="bloque2">
+                    <h2 title="Este titulo comparte jerarquía &#60;h2&#62; con otros 3">TITULOS Y PARRAFOS</h2>
+                    <p>Apunta a los titulos de la página para conocer su posición en esta.<br>Todo el codigo de muestra que ves, está entre &#60;pre&#62; para respetar los espaciados. </p>
+                    <pre>
+                        <code>
+        &#60;h1&#62;<span title="Del 1 al 6 marca los titulos de tu pagina de mayor a menor importancia">Titulos</span>&#60;/h1&#62;
+        &#60;p&#62;Párrafos&#60;/p&#62;
+        &#60;pre&#62;Párrafos con formato&#60;/pre&#62;
+
+                        </code>
+                    </pre>
+
+                </div >
+                <div class="bloque4">
+                    <h2>ESTILOS</h2>
+                    <p>Juega a cambiar los valores de este codigo en el editor online enlazado en la seccion <br> "links de interes"</p>
+                    <pre>
+                        <code>
+        &#60;p style=<span title="La W3C recomienda cotizar siempre, ya sea con comillas dobles o simples. Si el valor del atributo en si mismo contiene comillas, estas deben ser contrarias a las externas. Ejemplo &#34María 'de la O' es mi prima &#34 o bien 'Maria &#34de la O&#34es mi prima' ">"</span>color: red;background-color: red;"&#62;Cambio color&#60;/p&#62;
+        &#60;p style="font-family: courier<span title="Concatena varios estilos para un mismo elemento con semicolon">;</span> font-size: 50<span title="Puedes indicar el tamañao de tus textos en pixeles, em, vw e incluso porcentaje %">px</span>"&#62;Tamaño y fuente&#60;/p&#62;
+        &#60;p style="text-align:<span title="Puedes alinear tu texto a la izquierda, derecha, centro y justificado">left</span> <span title="Puedes indicar el tamañao de tus textos en pixeles, em, vw e incluso porcentaje %"></span>&#62;Cambio alineacion del texto&#60;/p&#62;
+                        </code>
+            
+                    </pre>
+
+                    
+                    
+                </div>
+                
+
+            </div>
+    
+            
+    
+            <div class="sidebar">
+                <h3 title="Este titulo esta marcado como &#60;h3&#62; considerandolo el 3º mas importante">LINKS DE INTERES</h3>
+                <ul>
+                    <li><a href="https://www.w3schools.com/cssref/css_websafe_fonts.asp" target="_blank" title="Conoce las familias de fuentes mas compatibles con segun que exploradores">Compatibilidad de Fuentes</a></li>
+                    <li><a href="https://www.w3schools.com/tags/ref_country_codes.asp" target="_blank" title="Aprende a etiquetar tu pagina con el codigo de pais e idioma correspondiente">Codigos Referencia Pais</a></li>
+                    <li><a href= "https://www.tutorialstonight.com/assets/html/history-of-html.png" target="_blank" title="Un poco de contexto sobre tu lenguaje favorito">Historia HTML</a></li>
+                    <li><a href="https://www.w3schools.com/html/html_colors.asp" target="_blank" title="Aprende las formas de dar color a tu página">Codificacion Color</a></li>
+                    <li><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_editors" target="_blank" title="Practica código sin necesidad de instalar ningun programa">Editor Codigo Online</a></li>
+                    <hr style="height: 400px;border-style: hidden;">
+                </ul>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="footer">
+            <img title="Define el tamaño de tus imagenes con height: y width:"style="float:right;height: 15%;width: 15%;"src="logo_valblanco.png">
+            <h4>LENGUAJE DE MARCAS Y SISTEMAS DE GESTIÓN DE INFORMACIÓN</h4>
+            
+        </div>
+
+
+
+    </body>
+
+
+</html>

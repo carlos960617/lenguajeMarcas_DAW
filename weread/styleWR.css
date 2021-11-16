@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    margin:0;
+}
+
+.head {
+    background-color:bisque;
+    height: 100px;
+}
+
+.head button{
+    float:right;
+    margin: 40px;
+    border:none;
+    background-color:bisque;
+}
+
+.head img{
+    float:left;
+    margin: 40px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.groups{
+    
+    background-color: cadetblue;
+    text-align:center;
+}
+
+.groups button{
+
+    display: block;
+    height:200px;
+    width: 50%;
+    border: none;
+    float: left;
+}
+
+.main .cover{
+    display: block;
+    float: left;
+    background-color: darksalmon;
+    
+    width: 25%;
+
+}
+
+.main .timeline{
+    display:block;
+    background-color: darkgrey;
+    float: left;
+    width:75%;
+
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    display: bloc;
+    width: 100%;
+    background-color: darkgreen;
+    
+}
+
+
